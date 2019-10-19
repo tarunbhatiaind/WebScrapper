@@ -9,21 +9,8 @@ uClient = uReq(url) #open connection , getting the page
 myHTML= uClient.read() #content into html
 uClient.close() # close connection
 page_soup = soup(myHTML,"html.parser") #mention the parser , html in our case
-#print(page_soup.h1) #grabs h1 tag
-#print(page_soup.body.span)
-#findALL function in BeautifulSoup or soup will return all the elements
-#mentioned inside the function within the page , with the same class
-#so it grabs all the products
 containers=page_soup.findAll("div",{"class":"item-container"})
-length=(len(containers))
-#print(containers[0])
 contain = containers[0]
-# divWithInfo = contain.find("div", "item-info")
-# title_container=divWithInfo.find("a",{"class":"item-title"})
-# namepr= title_container.text
-#print(namepr)
-#print(divWithInfo.div.a.img["title"])
-# print()
 file="products.csv"
 f=open(file,"w")
 headers ="Brand , Product_Name, Shipping fee\n"
