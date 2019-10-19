@@ -1,6 +1,6 @@
 # WebScrapper
 Small Webscrapper that gathers data for the graphic cards from the website(newegg.com) and write it into a csv file .
-The code gathers data for the first page of search , however it can be looped for n search pages from url
+The code gathers data for the first page of search , however it can be looped for n search pages from url.
 Python version -- 3.7.4
 Packages to be installed -- bs4 , urlib
 To install the packages , follow the below steps :
