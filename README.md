@@ -9,4 +9,4 @@
 * Once installed , type python and try to import the package , if no errors shows up then package has been installed
 * Copy and paste the contents of the file webscr.py in powershell after getting inside the python console ( By just writting python)
   or use any IDE to run the program 
-*Products csv file would be created in the working folder where the data extracted would be stored.
+* Products csv file would be created in the working folder where the data extracted would be stored.
